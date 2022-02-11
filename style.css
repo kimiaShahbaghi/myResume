@@ -427,6 +427,6 @@ header .navbar a:hover {
 }
 
 .heading {
-    font-size: 45px;
+    font-size: 45px !important;
     color: #5270c5 !important;
 }
