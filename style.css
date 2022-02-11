@@ -7,7 +7,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: all .2s linear;
 }
 
@@ -181,7 +181,7 @@ header .navbar a:hover {
     font-size: 50px;
 }
 
-.about .content .info {
+.info {
     padding: 10px 0;
     font-size: 25px;
     line-height: 2.5;
@@ -211,6 +211,14 @@ header .navbar a:hover {
 
 .education h3 {
     font-size: 40px;
+}
+
+.education h2 {
+    font-size: 45px;
+}
+
+.workexperience h2 {
+    font-size: 45px;
 }
 
 .education p {
