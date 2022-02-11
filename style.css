@@ -11,10 +11,6 @@
     transition: all .2s linear;
 }
 
-.bcolor {
-    color: #5270c5;
-}
-
 .bckcolor {
     background: #d7bde2;
 }
@@ -215,14 +211,6 @@ header .navbar a:hover {
 
 .education h3 {
     font-size: 40px;
-}
-
-.education h2 {
-    font-size: 45px;
-}
-
-.workexperience h2 {
-    font-size: 45px;
 }
 
 .education p {
@@ -433,4 +421,9 @@ header .navbar a:hover {
     color: #e91e63;
     font-size: 12px;
     transform: translateY(-22px);
+}
+
+.heading {
+    font-size: 45px;
+    color: #5270c5;
 }
