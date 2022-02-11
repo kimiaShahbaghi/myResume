@@ -106,18 +106,9 @@ header .navbar a:hover {
     html {
         font-size: 45%;
     }
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    .home #bckg {
-        margin: 0;
-        width: 100%;
-    }
 }
 
 .home {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,16 +185,16 @@ header .navbar a:hover {
     flex-wrap: wrap;
     gap: 25px;
     padding: 15px;
-    word-break: break-all;
+    word-wrap: break-word;
 }
 
 .about .content .box-container .box {
     flex: 1 1 320px;
-    word-break: break-all;
+    word-wrap: break-word;
 }
 
 .about .content .box-container .box p {
-    word-break: break-all;
+    word-wrap: break-word;
     font-size: 20px;
     line-height: 2;
     padding: 10px 0;
