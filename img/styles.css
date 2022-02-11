@@ -7,7 +7,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: all .2s linear;
 }
 
@@ -58,7 +58,7 @@ header .navbar {
 }
 
 header .navbar a {
-    padding: 5px;
+    padding: 3px;
     font-size: 21px;
     color: #5d6d7e;
 }
@@ -121,7 +121,7 @@ header .navbar a:hover {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('./img/background.jpg');
+    background-image: url('./background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,9 +143,9 @@ header .navbar a:hover {
 }
 
 .home .content h3 {
-    color: black;
+    color: white;
     font-size: 65px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .home .content p {
@@ -172,7 +172,7 @@ header .navbar a:hover {
     font-size: 50px;
 }
 
-.about .content .info {
+.info {
     padding: 10px 0;
     font-size: 25px;
     line-height: 2.5;
