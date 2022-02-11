@@ -137,6 +137,7 @@ header .navbar a:hover {
 }
 
 .home .content {
+    padding: 0;
     display: flex;
     justify-content: center;
     text-align: center;
