@@ -418,3 +418,7 @@ header .navbar a:hover {
     font-size: 45px !important;
     color: #5270c5 !important;
 }
+
+p {
+    word-wrap: break-word !important;
+}
