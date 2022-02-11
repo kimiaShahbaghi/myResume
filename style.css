@@ -193,6 +193,7 @@ header .navbar a:hover {
 }
 
 .about .content .box-container .box p {
+    word-break: break-all;
     font-size: 20px;
     line-height: 2;
     padding: 10px 0;
